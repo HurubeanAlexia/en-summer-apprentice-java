@@ -21,9 +21,9 @@ public class EventController {
         this.eventService = eventService;
     }
 
-    @GetMapping("")
-    public List<EventDTO> getEvents(@RequestParam Long venueId,
-                                    @RequestParam String eventType) {
+    @GetMapping
+    public List<EventDTO> getEvents(@RequestParam("venueId") Long venueId,
+                                    @RequestParam("eventType") String eventType) {
         return eventService.getEventsByVenueIdAndEventType(venueId, eventType);
     }
 }

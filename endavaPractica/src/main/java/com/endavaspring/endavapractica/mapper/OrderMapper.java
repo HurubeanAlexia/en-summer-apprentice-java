@@ -1,6 +1,8 @@
 package com.endavaspring.endavapractica.mapper;
 
-import com.endavaspring.endavapractica.domain.*;
+import com.endavaspring.endavapractica.domain.Order;
+import com.endavaspring.endavapractica.domain.TicketCategory;
+import com.endavaspring.endavapractica.domain.Customer;
 import com.endavaspring.endavapractica.dto.OrderInputDTO;
 import com.endavaspring.endavapractica.dto.OrderOutputDTO;
 
